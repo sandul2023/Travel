@@ -3,6 +3,7 @@ import {BsPerson} from "react-icons/bs";
 import {BiSearch} from "react-icons/bi";
 import {HiOutlineMenuAlt4} from "react-icons/hi";
 import {AiOutlineClose} from "react-icons/ai";
+import {FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube} from "react-icons/fa";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -34,7 +35,8 @@ const Navbar = () => {
             </div>
 
             /*Menu Dropdown*/
-            <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
+            <div onClick={handleNav}
+                 className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
                 <ul>
                     <h1>BEACHES.</h1>
                     <li className='border-b'>Home</li>
@@ -45,6 +47,13 @@ const Navbar = () => {
                     <div className='flex flex-col'>
                         <button className='my-6'>Search</button>
                         <button>Account</button>
+                    </div>
+                    <div className='flex justify-between my-6'>
+                        <FaFacebook className='icon'/>
+                        <FaTwitter className='icon'/>
+                        <FaYoutube className='icon'/>
+                        <FaPinterest className='icon'/>
+                        <FaInstagram className='icon'/>
                     </div>
                 </ul>
             </div>
