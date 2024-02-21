@@ -42,6 +42,10 @@ const Navbar = () => {
                     <li className='border-b'>Travel</li>
                     <li className='border-b'>View</li>
                     <li className='border-b'>Book</li>
+                    <div className='flex flex-col'>
+                        <button className='my-6'>Search</button>
+                        <button>Account</button>
+                    </div>
                 </ul>
             </div>
         </div>
