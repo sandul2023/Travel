@@ -29,12 +29,12 @@ const Navbar = () => {
                 <BsPerson size={20}/>
             </div>
 
-            /*blabla*/
+            {/*/*blabla*/}
             <div onClick={handleNav} className='md:hidden z-10'>
                 {nav ? <AiOutlineClose className='text-black' size={20}/> : <HiOutlineMenuAlt4 size={20}/>}
             </div>
 
-            /*Menu Dropdown*/
+            {/*Menu Dropdown*/}
             <div onClick={handleNav}
                  className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
                 <ul>
