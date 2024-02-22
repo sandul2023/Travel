@@ -8,8 +8,6 @@ const Hero = () => {
             <video
                 className='w-full h-full object-cover'
                 src={Train}
-                onDurationChange={Train}
-                onDurationChangeCapture={Sigiriya}
                 autoPlay
                 loop
                 muted
