@@ -1,7 +1,6 @@
 import React from "react";
 import {AiOutlineSearch} from "react-icons/ai";
 import Train from '../assets/Train.mp4'
-import Sigiriya from '../assets/Sigiriya.mp4'
 const Hero = () => {
     return(
         <div className='w-full h-screen relative'>
