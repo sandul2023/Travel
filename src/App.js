@@ -4,6 +4,7 @@ import Navbar from "./Component/Navbar";
 import Hero from "./Component/Hero";
 import Destinations from "./Component/Destinations";
 import Footer from "./Component/Footer";
+import Search from "./Component/Search";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Navbar/>
        <Hero/>
        <Destinations/>
+       <Search/>
        <Footer/>
    </div>
   );
