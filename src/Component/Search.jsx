@@ -1,6 +1,7 @@
 import React from "react";
+import {RiCustomerService2Full, RiCustomerService2Fill} from "react-icons/ri";
 
-const search = () => {
+const Search = () => {
     return(
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
             <div className='lg:col-span-2 flex flex-col justify-evenly'>
@@ -17,6 +18,13 @@ const search = () => {
                         diving at most resorts. If you are planning a wedding, BEACHES is
                         the leader in Caribbean destination weddings and honeymoon packages.
                     </p>
+                </div>
+                <div className='grid sm:grid-cols-2 gap-8 py-4'>
+                    <div className='flex flex-col lg:flex-row items-center text-center'>
+                        <button>
+                            <RiCustomerService2Fill size={50}/>
+                        </button>
+                    </div>
                 </div>
             </div>
 
