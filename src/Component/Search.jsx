@@ -27,8 +27,8 @@ const Search = () => {
                             <RiCustomerService2Fill size={50}/>
                         </button>
                         <div>
-                            <h3 className='py-2'>LEADING SERVICE</h3>
-                            <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                            <h3 className='py-2'>Guiding SERVICE</h3>
+                            <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row items-center text-center'>
@@ -36,8 +36,8 @@ const Search = () => {
                             <MdOutlineTravelExplore size={50}/>
                         </button>
                         <div>
-                            <h3 className='py-2'>LEADING SERVICE</h3>
-                            <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                            <h3 className='py-2'>Guiding SERVICE</h3>
+                            <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
                         </div>
                     </div>
                 </div>
@@ -53,10 +53,10 @@ const Search = () => {
                     <div className='flex flex-col my-2'>
                         <label>Destination</label>
                         <select className='border rounded-md p-2'>
-                            <option>Grande Antigua</option>
-                            <option>Key West</option>
-                            <option>Maldives</option>
-                            <option>Cozumel</option>
+                            <option>Sigiriya</option>
+                            <option>9-Arch</option>
+                            <option>Ambuluwawa</option>
+                            <option>Water Falls</option>
                         </select>
                     </div>
                     <div className='flex flex-col my-4'>
