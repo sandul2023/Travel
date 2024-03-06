@@ -23,13 +23,13 @@ const Footer = () => {
                         <li>Newsroom</li>
                         <li>Advertising</li>
                     </ul>
-                    <ul className='lg:flex'>
-                        <li>About</li>
-                        <li>Partnerships</li>
-                        <li>Careers</li>
-                        <li>Newsroom</li>
-                        <li>Advertising</li>
-                    </ul>
+                    {/*<ul className='lg:flex'>*/}
+                    {/*    <li>About</li>*/}
+                    {/*    <li>Partnerships</li>*/}
+                    {/*    <li>Careers</li>*/}
+                    {/*    <li>Newsroom</li>*/}
+                    {/*    <li>Advertising</li>*/}
+                    {/*</ul>*/}
                 </div>
             </div>
         </div>

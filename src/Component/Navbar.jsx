@@ -4,6 +4,7 @@ import {BiSearch} from "react-icons/bi";
 import {HiOutlineMenuAlt4} from "react-icons/hi";
 import {AiOutlineClose} from "react-icons/ai";
 import {FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube} from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <li>Book</li>
             </ul>
             <div className='hidden md:flex'>
-                <BiSearch className='' size={20}/>
+                <BiSearch className='search' size={20}/>
                 <BsPerson size={20}/>
             </div>
 
@@ -47,6 +48,9 @@ const Navbar = () => {
                     <div className='flex flex-col'>
                         <button className='my-6'>Search</button>
                         <button>Account</button>
+                    </div>
+                    <div>
+                        <button className= 'border-b'>Home</button>
                     </div>
                     <div className='flex justify-between my-6'>
                         <FaFacebook className='icon'/>
